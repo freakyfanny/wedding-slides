@@ -3,6 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "homepage": "http://freakyfanny.github.io/wedding-slides",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:freakyfanny/wedding-slides.git"
+  },
   "dependencies": {
     "react": "^16.10.1",
     "react-dom": "^16.10.1",
