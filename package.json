@@ -2,11 +2,14 @@
   "name": "wedding-slides",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://freakyfanny.github.io/wedsding-slides",
+  "homepage": "http://freakyfanny.github.io/wedding-slides",
   "dependencies": {
     "react": "^16.10.1",
     "react-dom": "^16.10.1",
     "react-scripts": "3.1.2"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.1.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -14,7 +17,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-"deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
