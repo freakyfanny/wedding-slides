@@ -2,26 +2,23 @@
   "name": "wedding-slides",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://freakyfanny.github.io/wedding-slides",
+  "homepage": "https://www.herrochfrumaras.se",
   "repository": {
     "type": "git",
-    "url": "git@github.com:freakyfanny/wedding-slides.git"
+    "url": "https://github.com:freakyfanny/wedding-slides.git"
   },
   "dependencies": {
     "react": "^16.10.1",
     "react-dom": "^16.10.1",
+    "react-facebook-login": "^4.1.1",
+    "react-router-dom": "^5.1.2",
     "react-scripts": "3.1.2"
-  },
-  "devDependencies": {
-    "gh-pages": "^2.1.1"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"

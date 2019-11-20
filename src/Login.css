@@ -1,0 +1,14 @@
+.login {
+    display: flex;
+}
+
+.kep-login-facebook.metro {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+    margin: 0;
+    padding: 4px 6px;
+    font-size: 12px;
+    font-weight: normal;
+}
